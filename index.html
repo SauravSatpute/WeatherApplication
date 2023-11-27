@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <nav>
+                <div class="left">
+                    <ul>
+                        <li><a href="#"><img src="imgaes/cloudy64px.png" alt=""></a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Usage Guide</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><input type="text" placeholder="Enter a City"></li>
+                    </ul>
+                    <button id="btnSubmit">Submit</button>
+                </div>
+            </nav>
+
+            <main>
+                <div>
+                    <h2>Weather in <span id="city"></span></h2>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="heading">Cloud-PCT</div>
+                        <p id="main-text"><span id="cloud-pct"></span></p>
+                        <p>feels like <span id="feels-like"></span></p>
+                        <p>Max temperature is <span id="max-temp"></span></p>
+                        <p>Min temperature is <span id="min-temp"></span></p>
+                    </div>
+                    <div class="card">
+                        <div class="heading">Humidity</div>
+                        <p id="main-text"><span id="humidity"></span></p>
+                        <p>Sunrise is <span id="sunrise"></span></p>
+                        <p>Sunset is <span id="sunset"></span></p>
+                    </div>
+                    <div class="card">
+                        <div class="heading">Wind</div>
+                        <p id="main-text"><span id="wind-degrees"></span></p>
+                        <p>Wind Speed is <span id="wind-speed"></span></p>
+                        
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

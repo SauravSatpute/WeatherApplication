@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #122859;
+    
+}
+
+nav {
+    list-style: none;
+    background-color: #4782ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav .left ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+nav .right {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: start; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.right button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+ul li {
+    margin: 12px 15px;
+    list-style: none;
+   
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+main {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main h2 {
+    padding: 3rem;
+}
+
+main .card {
+    background-color: #4782ff;
+    color: #fff;
+    height: 400px;
+    width: 250px;
+    margin: 10px;
+}
+
+main .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+main .heading {
+    width: 100%;
+    text-align: center;
+    background-color: #1226b8;
+    padding: 25px 0px;
+}
+
+main .card p {
+    text-align: center;
+    padding: 2px 0px;
+    font-size: 0.8rem;
+}
+
+main #main-text {
+    font-size: 4rem;
+    padding: 30px 0px;
+}
