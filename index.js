@@ -34,7 +34,7 @@ let getWeather = (city) => {
         $('#sunrise').text(sunrise);
         $('#sunset').text(sunset);
         $('#temp').text(temp);
-        $('#wind-degrees').text(wind_degrees + "°C");
+        $('#wind-degrees').text(wind_degrees + "°");
         $('#wind-speed').text(wind_speed);
 
 
